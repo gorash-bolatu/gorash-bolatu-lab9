@@ -1,18 +1,26 @@
 public class Station {
 
-    String line;
-    String name;
-    boolean isAvailable;
-    Station prev, next;
+    private String line;
+    private String name;
+    private boolean inService;
+    public Station prev, next;
 
     public Station(String line, String name) {
         this.line = line;
         this.name = name;
-        this.isAvailable = true;
+        this.inService = true;
+    }
+
+    public Station(String line) {
+        this.line = line;
     }
 
     public void switchAvailable() {
-        this.isAvailable = !this.isAvailable;
+        this.inService = !this.inService;
+    }
+
+    public boolean isAvailable() {
+        return inService;
     }
 
     public void addNext(Station station) {
@@ -42,7 +50,7 @@ public class Station {
         s.append(": ");
         s.append(this.line);
         s.append(" line, in service: ");
-        s.append(this.isAvailable);
+        s.append(this.inService);
         s.append(", previous station: ");
         s.append((prev == null) ? "none" : prev.name);
         s.append(", next station: ");
