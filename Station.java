@@ -8,6 +8,7 @@ public class Station {
     public Station(String line, String name) {
         this.line = line;
         this.name = name;
+        this.isAvailable = true;
     }
 
     public void switchAvailable() {
