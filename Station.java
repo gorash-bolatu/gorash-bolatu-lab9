@@ -22,6 +22,10 @@ public class Station {
         this.prev = station;
     }
 
+    public boolean equals(Station station) {
+        return this.line.equals(station.line) && this.name.equals(station.name);
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
