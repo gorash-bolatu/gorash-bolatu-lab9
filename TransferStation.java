@@ -24,6 +24,7 @@ public class TransferStation extends Station {
         StringBuilder s = new StringBuilder(super.toString());
         s.append("\n\tTransfers: \n");
         for (Station station : transfers) {
+            s.append("\t");
             s.append(station.toString());
             s.append("\n");
         }
