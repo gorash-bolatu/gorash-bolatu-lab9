@@ -68,7 +68,7 @@ public class MetroSimulator{
 		
 		va_square.makeEnd();
 		clarendon.connect(court_house);
-		clarendon.connect(rosslyn);
+		court_house.connect(rosslyn);
 		rosslyn.connect(foggy_bottom);
 		foggy_bottom.connect(farragut_west);
 		farragut_west.connect(mcpherson_square);
