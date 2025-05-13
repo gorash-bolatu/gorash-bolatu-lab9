@@ -4,4 +4,11 @@ public class EndStation extends Station {
         super(line, name);
     }
 
+    public void makeEnd() {
+        if (this.next == null)
+            this.next = this.prev;
+        else
+            this.prev = this.next;
+    }
+
 }
