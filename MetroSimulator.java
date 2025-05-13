@@ -97,7 +97,12 @@ public class MetroSimulator{
 	public static EndStation makePurpleLine(){
 		s1.connect(s2);
 		
-		//connect the other stations here
+		s1.makeEnd();
+		s2.connect(s3);
+		metro_center.addTransferStationPrev(s3);
+		metro_center.addTransferStationNext(s4);
+		s4.connect(s5);
+		s5.makeEnd();
 
 		return s1;
 	}
