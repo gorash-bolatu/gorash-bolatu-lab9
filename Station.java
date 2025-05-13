@@ -37,9 +37,9 @@ public class Station {
         s.append(" line, in service: ");
         s.append(this.isAvailable);
         s.append(", previous station: ");
-        s.append(prev.name);
+        s.append((prev == null) ? "none" : prev.name);
         s.append(", next station: ");
-        s.append(next.name);
+        s.append((next == null) ? "none" : next.name);
         return s.toString();
     }
 
