@@ -16,14 +16,20 @@ public class Station {
 
     public void addNext(Station station) {
         this.next = station;
+        station.prev = this;
     }
 
     public void addPrev(Station station) {
         this.prev = station;
+        station.next = this;
     }
 
     public boolean equals(Station station) {
         return this.line.equals(station.line) && this.name.equals(station.name);
+    }
+
+    public void connect(Station station) {
+        this.addNext(station);
     }
 
     @Override
