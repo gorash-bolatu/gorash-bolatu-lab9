@@ -41,6 +41,32 @@ public class Station {
         this.addNext(station);
     }
 
+    public int tripLength(Station dest) {
+        if (this.equals(dest))
+            return 0;
+        Station n = this.next;
+        if (n == null)
+            return -1; // dead end
+        if (n.equals(dest))
+            return 1;
+        if (n instanceof EndStation)
+            return -1; // dead end
+        if (n instanceof TransferStation) {
+            TransferStation transfer = (TransferStation) n;
+            for (Station s : transfer.otherStations) {
+                if (!s.line.equals(this.line) && s.prev == transfer) {
+                    int result = s.tripLength(dest);
+                    if (result != -1)
+                        return result + 2;
+                }
+            }
+        }
+        int result = n.tripLength(dest);
+        if (result == -1)
+            return -1;
+        return result + 1;
+    }
+
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
