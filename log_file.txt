@@ -1,0 +1,120 @@
+commit ffbdd4c9d0c03f3b69e19259f1ee2c5ea2107d22
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 08:42:12 2025 +0800
+
+    fix for test 12
+    (transfer stations can now jump 1 station into any direction, not just `next`)
+
+commit 991b28da3b773d4e6e3e3c057d922668e4311222
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 08:14:55 2025 +0800
+
+    implemented `tripLength`
+
+commit 7de78d5ed4cf88d861b11a559c42335100729e6e
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:41:59 2025 +0800
+
+    fixed typo
+
+commit 933cc75b01171f63ffefdd79e901d16915866301
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:40:03 2025 +0800
+
+    added `isAvailable()` getter
+
+commit 1e0843877d502c98cb30c8dc1610b5683117cd82
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:35:53 2025 +0800
+
+    ignore for .class files
+
+commit a055659ba883104a61313f0446964bd4a0a7040a
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:31:01 2025 +0800
+
+    for test 10
+
+commit 39d3e8beba42445b4c8ad660aaebc011640e7cdb
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:28:48 2025 +0800
+
+    for test 9
+
+commit 32ed47a60a8dd543a7ef34793893b3060a1bfb4c
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:26:54 2025 +0800
+
+    renamed `transfers` to `otherStations`
+
+commit 59f142f9216f70376df00a49c6dcef5062fcb2c6
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:25:17 2025 +0800
+
+    in service by default
+
+commit be97275293da8cf198a20793e7f7a4bb5cf98ac1
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:19:54 2025 +0800
+
+    tabulation fix
+
+commit e3edf2d0c354ecc603c55ab806c4763bc84da22a
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:16:08 2025 +0800
+
+    for test 8
+
+commit 4979ad0021a1114e501ffa28917b9928bc495581
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 06:05:09 2025 +0800
+
+    for test 7
+
+commit 80857d06eb2e8a8ee08e197c826a051cffa3a9c0
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:56:14 2025 +0800
+
+    for test 6
+
+commit b641c23b84c026f338450894b771c85c0a83662a
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:51:12 2025 +0800
+
+    for test 5
+
+commit bb9dafaf86c0d77c9eafac956e824ec4431f268d
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:47:25 2025 +0800
+
+    for test 4
+
+commit 6eb7166cb38a2944698f19f2cfd56fd4de1c47f0
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:46:43 2025 +0800
+
+    for test 3
+
+commit 71d85b590a143372b9956c9d0f092b7e195be2e2
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:41:28 2025 +0800
+
+    for test 2
+
+commit 0837a427123ea996c115e25014ba5b52b40c8ffb
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 05:39:37 2025 +0800
+
+    for test 1
+
+commit 3edb1f1d6fdc5176e838b65f8942aa8853d2321c
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 04:46:22 2025 +0800
+
+    new files
+
+commit 088fe867f0e73651bcad2e411499dbc7b5d764ba
+Author: gorash-bolatu <cotwi10@yandex.ru>
+Date:   Wed May 14 04:39:11 2025 +0800
+
+    unpacked and uploaded
