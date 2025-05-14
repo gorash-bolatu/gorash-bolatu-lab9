@@ -54,7 +54,9 @@ public class Station {
         if (n instanceof TransferStation) {
             TransferStation transfer = (TransferStation) n;
             for (Station s : transfer.otherStations) {
-                if (!s.line.equals(this.line) && s.prev == transfer) {
+                if (s.equals(dest))
+                    return 2;
+                if (!s.line.equals(this.line) && s.prev == transfer && !(s instanceof EndStation)) {
                     int result = s.tripLength(dest);
                     if (result != -1)
                         return result + 2;
